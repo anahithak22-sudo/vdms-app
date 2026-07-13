@@ -1,0 +1,13 @@
+-- =============================================================================
+-- seed.sql — DEVELOPMENT ONLY. Never run against production.
+--
+-- Supabase Auth users must be created via the Auth API / dashboard (they live
+-- in auth.users with hashed passwords). After creating an auth user, insert a
+-- matching profile row here, substituting the real auth user id.
+--
+-- Example (replace the UUID with the id returned by the Auth admin API):
+--
+-- insert into public.app_users (auth_user_id, username, display_name, role, is_first_login)
+-- values ('00000000-0000-0000-0000-000000000000', 'superadmin', 'Супер Администратор', 'super_admin', true)
+-- on conflict (username) do nothing;
+-- =============================================================================
